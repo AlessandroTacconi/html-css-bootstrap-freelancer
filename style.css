@@ -1,0 +1,50 @@
+header {
+  background-color: #2c3e50;
+}
+
+.at-first-main,
+.at-third-main {
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+
+.at-first-main img {
+  width: 50%;
+}
+
+.at-second-main img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.line {
+  width: 4.5rem;
+  height: 0.25rem;
+  background-color: #2c3e50;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.at-first-footer i {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+footer {
+  background-color: #3a546d;
+}
+
+.at-second-footer {
+  background-color: #2c3e50;
+  font-size: 0.75rem;
+}

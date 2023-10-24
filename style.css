@@ -9,7 +9,7 @@ header {
 }
 
 .at-first-main img {
-  width: 50%;
+  width: 14.375rem;
 }
 
 .at-second-main img {
@@ -27,6 +27,11 @@ h1,
 h2,
 h3 {
   text-transform: uppercase;
+}
+
+.at-fourth-main button {
+  background-color: #1abc9c;
+  border: #1abc9c;
 }
 
 .at-first-footer i {

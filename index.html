@@ -12,15 +12,28 @@
 <body>
 
 <!--HEADER-->
-<header class="text-white">
-  <div class="d-flex justify-content-between px-3 py-4">
-    <div class="text-uppercase">
-      Start Bootstrap
-    </div>
-    <div>
-      Menu
-    </div>
-  </div>
+<header class="text-white text-uppercase">
+      <nav class="navbar navbar-expand-lg container" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav  ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 </header>
 <!-- /HEADER-->
 
@@ -65,22 +78,22 @@
         </div>
       </div>
       <div class="row g-4">
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-lg-6 col-xxl-4">
           <img src="img/cabin.png" alt="cabin">
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-lg-6 col-xxl-4">
           <img src="img/cake.png" alt="cake">
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-lg-6 col-xxl-4">
           <img src="img/circus.png" alt="circus">
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-lg-6 col-xxl-4">
           <img src="img/game.png" alt="game">
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-lg-6 col-xxl-4">
           <img src="img/safe.png" alt="safe">
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-lg-6 col-xxl-4">
           <img src="img/submarine.png" alt="submarine">
         </div>
       </div>
@@ -103,9 +116,9 @@
       <div class="px-5 col-12 col-md-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error rerum debitis at asperiores ex repudiandae, blanditiis dicta mollitia vero aspernatur velit tempore ad modi. Nisi alias quibusdam nobis id deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ea totam itaque accusantium deleniti repudiandae libero? Repellendus inventore expedita possimus laboriosam impedit fugit, animi eaque quidem commodi nam corporis deleniti?</div>
       <div class="px-5 pt-5 col-12 col-md-6 pt-md-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error rerum debitis at asperiores ex repudiandae, blanditiis dicta mollitia vero aspernatur velit tempore ad modi. Nisi alias quibusdam nobis id deleniti? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum ea totam itaque accusantium deleniti repudiandae libero? Repellendus inventore expedita possimus laboriosam impedit fugit, animi eaque quidem commodi nam corporis deleniti?</div>
     </div>
-    <div class="text-center mt-5">
-      BUTTON
-    </div>
+    <div class="text-center"><button type="button" class="btn btn-outline-light mt-5 text-center"><i class="fa-solid fa-download pe-1"></i>Download</button></div>
+
+
   </div>
       <div class="at-fourth-main py-5">
         <div class="container text-center">
@@ -119,12 +132,30 @@
              <div class="line">
             </div>
           </div>
-          <div>
-            FORM
+          <div class="text-center">
+            <div class="form-floating">
+              <textarea class="form-control border-0 border-bottom rounded-0" placeholder="name" id="name"></textarea>
+              <label for="name">Name</label>
+            </div>        
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control border-0 border-bottom rounded-0" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control border-0 border-bottom rounded-0" placeholder="number" id="number"></textarea>
+              <label for="number">Phone Number</label>
+            </div>
+            <div class="form-floating">
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="floatingTextarea2"
+                style="height: 170px">
+              </textarea>
+              <label for="floatingTextarea2">Message</label>
+            </div>  
           </div>
-          <div>
-           button
-           </div>
+          <div class="text-start mt-3"><button type="button" class="btn btn-success ">Send</button></div>
         </div>
       </div>
     </div>
@@ -160,5 +191,6 @@
     </div>
   </footer>
   <!-- /FOOTER-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
